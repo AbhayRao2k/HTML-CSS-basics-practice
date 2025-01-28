@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - About</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>About Me</h1>
+      <p>Welcome to the About page! Here's a little something about myself.</p>
+      <ul>
+        <li>Name: Abhay Rao</li>
+        <li>Skills: HTML, CSS, JavaScript, React, MongoDB, Node.js, Next.js</li>
+        <li>Hobbies: Coding, gaming, and exploring new tech</li>
+      </ul>
+    </main>
+
+    <footer>
+      <p>© <span id="current-year"></span> My Portfolio</p>
+    </footer>
+
+    <script>
+      const year = new Date().getFullYear();
+      document.getElementById("current-year").textContent = year;
+    </script>
+  </body>
+</html>
